@@ -62,7 +62,7 @@ MIEMBROS DEL GRUPO:
 
     -Reglas de negocio (RN):
 
-        RN-01 Tamaño mínimo de mazo: Un mazo de formatos tradicionales (como Standard o Modern) debe contener un mínimo de 60 cartas.
+        RN-01 Tamaño mínimo de mazo: Un mazo de formatos tradicionales (como Standard o Commander) debe contener un mínimo de 60 cartas.
 
         RN-02 Límite de copias: Un mazo no puede contener más de 4 copias de una misma carta (basado en el nombre en inglés), a excepción de las cartas con el supertipo "Tierra básica".
 
@@ -70,7 +70,10 @@ MIEMBROS DEL GRUPO:
        
         RN-04 Límite de colores por carta: Una carta puede tener entre 0 (incolora) y un máximo de 5 colores asociados. (Esto viene determinado por la cardinalidad 0..5 en la relación entre Carta y Color en la parte superior izquierda del diagrama).   
 
-        RN-05 Restricción de color para Tierras Básicas: Si una carta es del subtipo Tierra y su atributo esBasica es verdadero, entonces debe tener asociado exactamente 1 único color. (Esto aparece en la nota inferior que apunta a la clase Tierra: "Si Basica exactamente 1 color").   
+        RN-05 Restricción de color para Tierras Básicas: Si una carta es del subtipo Tierra y su atributo esBasica es verdadero, entonces debe tener asociado exactamente 1 único color. (Esto aparece en la nota inferior que apunta a la clase Tierra: "Si Basica exactamente 1 color").  
+
+
+
 
 
     -Requisitos funcionales (Solo listados y consultas)
@@ -82,6 +85,20 @@ MIEMBROS DEL GRUPO:
         RF-03 Listar mazos generados: El sistema debe mostrar un listado con los mazos que el usuario ha generado o guardado, mostrando el nombre, los colores y el formato.
 
         RF-04 Consultar composición de mazo: El sistema debe permitir ver el desglose detallado de las cartas que componen un mazo específico, separadas por tipos (criaturas, hechizos, tierras).
+
+RF-05 Buscar cartas en la base de datos maestra: El sistema debe permitir buscar cartas en el catálogo global usando filtros combinados por nombre, texto de reglas, coste de maná convertido, formato de juego permitido y edición.
+
+RF-06 Consultar mazos viables según colección (Motor de Sugerencias): El sistema debe permitir consultar un listado de mazos legales y competitivos que el usuario puede construir directamente con su inventario actual, ordenados por porcentaje de cartas disponibles, desde 100% construible hasta un umbral configurable.
+
+RF-07 Consultar faltantes y coste de adquisición: El sistema debe permitir listar las cartas concretas que faltan al usuario para completar un mazo sugerido o seleccionado, junto con una estimación del coste económico total de adquisición basado en precios de mercado actualizados (Cardmarket / TCGPlayer).
+
+RF-08 Consultar métricas y análisis del mazo: El sistema debe mostrar consultas analíticas de un mazo seleccionado, incluyendo la curva de maná (distribución por CMC), proporción de fuentes de maná frente a devoción requerida y métricas del motor.
+
+RF-09 Privatización de mazos: El mazo de un usuario es privado de forma que no es accesible por otros usuarios.
+
+RF-10 Consultar historial de modificaciones y versiones del mazo: El sistema debe mostrar un registro cronológico de las revisiones de un mazo, permitiendo consultar las diferencias (diff) de cartas añadidas o retiradas entre versiones.
+
+
 
     -Pruebas de aceptación de reglas de negocio
 
