@@ -86,17 +86,17 @@ MIEMBROS DEL GRUPO:
 
         RF-04 Consultar composición de mazo: El sistema debe permitir ver el desglose detallado de las cartas que componen un mazo específico, separadas por tipos (criaturas, hechizos, tierras).
 
-    RF-05 Buscar cartas en la base de datos maestra: El sistema debe permitir buscar cartas en el catálogo global usando filtros combinados por nombre, texto de reglas, coste de maná convertido, formato de juego permitido y edición.
+        RF-05 Buscar cartas en la base de datos maestra: El sistema debe permitir buscar cartas en el catálogo global usando filtros combinados por nombre, texto de reglas, coste de maná convertido, formato de juego permitido y edición.
 
-    RF-06 Consultar mazos viables según colección (Motor de Sugerencias): El sistema debe permitir consultar un listado de mazos legales y competitivos que el usuario puede construir directamente con su inventario actual, ordenados por porcentaje de cartas disponibles, desde 100% construible hasta un umbral configurable.
+        RF-06 Consultar mazos viables según colección (Motor de Sugerencias): El sistema debe permitir consultar un listado de mazos legales y competitivos que el usuario puede construir directamente con su inventario actual, ordenados por porcentaje de cartas disponibles, desde 100% construible hasta un umbral configurable.
 
-    RF-07 Consultar faltantes y coste de adquisición: El sistema debe permitir listar las cartas concretas que faltan al usuario para completar un mazo sugerido o seleccionado, junto con una estimación del coste económico total de adquisición basado en precios de mercado actualizados (Cardmarket / TCGPlayer).
+        RF-07 Consultar faltantes y coste de adquisición: El sistema debe permitir listar las cartas concretas que faltan al usuario para completar un mazo sugerido o seleccionado, junto con una estimación del coste económico total de adquisición basado en precios de mercado actualizados (Cardmarket / TCGPlayer).
 
-    RF-08 Consultar métricas y análisis del mazo: El sistema debe mostrar consultas analíticas de un mazo seleccionado, incluyendo la curva de maná (distribución por CMC), proporción de fuentes de maná frente a devoción requerida y métricas del motor.
+        RF-08 Consultar métricas y análisis del mazo: El sistema debe mostrar consultas analíticas de un mazo seleccionado, incluyendo la curva de maná (distribución por CMC), proporción de fuentes de maná frente a devoción requerida y métricas del motor.
 
-    RF-09 Privatización de mazos: El mazo de un usuario es privado de forma que no es accesible por otros usuarios.
+        RF-09 Privatización de mazos: El mazo de un usuario es privado de forma que no es accesible por otros usuarios.
 
-    RF-10 Consultar historial de modificaciones y versiones del mazo: El sistema debe mostrar un registro cronológico de las revisiones de un mazo, permitiendo consultar las diferencias (diff) de cartas añadidas o retiradas entre versiones.
+        RF-10 Consultar historial de modificaciones y versiones del mazo: El sistema debe mostrar un registro cronológico de las revisiones de un mazo, permitiendo consultar las diferencias (diff) de cartas añadidas o retiradas entre versiones.
 
 
 
