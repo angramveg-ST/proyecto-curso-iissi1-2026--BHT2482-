@@ -99,7 +99,6 @@ MIEMBROS DEL GRUPO:
         RF-10 Consultar historial de modificaciones y versiones del mazo: El sistema debe mostrar un registro cronológico de las revisiones de un mazo, permitiendo consultar las diferencias (diff) de cartas añadidas o retiradas entre versiones.
 
 
-
     -Pruebas de aceptación de reglas de negocio
 
         -Prueba para RN-02 (Límite de copias):
