@@ -11,11 +11,19 @@
 
 ## 1.Introducción al problema:
    
-Magic:The Gathering es un juego de cartas coleccionables con decenas de miles de cartas editadas. Los jugadores invierten mucho tiempo y dinero en construir sus colecciones, y la creación de mazos (deckbuilding) es una de las partes más complejas y atractivas del juego, requiriendo un profundo conocimiento de los complementos o relación  entre cartas. 
+Magic: The Gathering es uno de los juegos de cartas coleccionables más complejos del mundo, con una trayectoria de décadas y decenas de miles de cartas editadas. Para la comunidad de jugadores, el deckbuilding (o construcción de mazos) representa el núcleo estratégico del juego: una tarea exigente que requiere comprender a fondo las dinámicas, sinergias y complementos entre cartas.
 
-La realidad de la mayoría de los jugadores, quienes invierten un volumen enorme de tiempo y dinero en construir sus colecciones físicas o digitales, es que sus cartas terminan acumulándose en carpetas, cajas de cartón o fundas tras años de partidas. Trasladar y digitalizar todo ese material a una herramienta informática suele convertirse en un proceso manual, pesado y eternamente postergado. La consecuencia directa de esta falta de control sobre el propio inventario es un problema de análisis combinatorio: saber qué mazos óptimos o verdaderamente competitivos puedes construir únicamente con las cartas que ya tienes en casa es casi imposible sin ayuda tecnológica. Esto lleva de forma inevitable a que los jugadores gasten dinero de más comprando cartas en el mercado secundario creyendo que las necesitan, cuando en realidad guardan alternativas funcionales en sus propios archivadores, o a que acaben compitiendo con mazos subóptimos por no detectar las combinaciones estratégicas ocultas entre sus pertenencias.
+Sin embargo, la realidad práctica de la mayoría de los aficionados dista mucho de ser ideal. Tras años acumulando cartas físicas o digitales, el inventario personal acaba disperso en carpetas, cajas y fundas. Digitalizar este catálogo suele convertirse en una labor tediosa, pesada y que habitualmente se pospone de forma indefinida.
 
-Para resolver de raíz esta problemática, el sistema se plantea como una plataforma ágil donde el usuario pueda registrar y actualizar su colección sin fricciones, ofreciendo como gran valor diferencial un motor de generación automática de mazos enfocado de manera estricta en su inventario real. A diferencia de los buscadores tradicionales que sugieren mazos ideales partiendo del supuesto de que el jugador posee todas las cartas del mercado, este motor toma la colección del usuario como el límite de búsqueda para analizar las cartas disponibles, calcular la base de tierras necesaria y construir de forma automática listas totalmente legales y cargadas de sinergia para distintos formatos de juego, como la competitividad de Standard o la versatilidad de Commander, logrando que el jugador aproveche al máximo su inversión y devuelva a la mesa de juego el valor de su colección.
+Esta falta de control centralizado deriva en un problema complejo de análisis combinatorio: determinar qué mazos competitivos o viables se pueden construir exclusivamente con las cartas que ya se poseen resulta inalcanzable de forma manual. Como consecuencia, ocurre un doble impacto negativo:
+
+Gasto innecesario: Los jugadores recurren al mercado secundario para adquirir cartas que consideran indispensables, ignorando que ya conservan alternativas funcionales en sus archivadores.
+
+Rendimiento subóptimo: Se termina compitiendo con mazos incompletos por no haber identificado las combinaciones tácticas que permanecían ocultas en la propia colección.
+
+Para responder a esta problemática, se propone una plataforma concebida para simplificar el registro del inventario y eliminar la fricción en el seguimiento del material disponible. El valor diferencial del sistema radica en su motor de generación automática de mazos: a diferencia de las herramientas convencionales —que diseñan listas ideales bajo el supuesto de que el jugador dispone de todo el catálogo existente—, este motor establece la colección real del usuario como el límite estricto de búsqueda.
+
+A partir de este inventario, el sistema evalúa las cartas utilizables, calcula la base de tierras adecuada y genera listas totalmente legales y optimizadas para formatos como Standard o Commander, permitiendo al jugador maximizar su inversión y sacar el máximo partido a sus cartas sobre la mesa.
 
 ## 2.Glosario de términos
         
