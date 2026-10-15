@@ -43,6 +43,9 @@ Mazo (Deck):Es el conjunto de cartas seleccionado por un jugador para disputar u
 
 
 ![Mazo](fotoMazo.png)
+
+
+
 Criatura: Son los monstruos, soldados o bestias que invocas para luchar por ti, son cartas
 Conjuro: Es un  hechizo puntual o un habilidad de una carta de gran poder (ejemplo: lanzar un rayo )
 Cementerio:Es el lugar donde se envía un conjuro tras ser usado o las cartas eliminadas en combate al jugar una partida
