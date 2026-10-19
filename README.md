@@ -107,11 +107,11 @@ Usuarios del sistema:
  ### Pruebas de aceptación de reglas de negocio
  -Prueba para RN-01 (tamaño mínimo de mazo):
 
-    Condición inicial: El usuario selecciona o intenta generar un mazo para el formato Standard que contiene un total de 55 cartas.
+Condición inicial: El usuario selecciona o intenta generar un mazo para el formato Standard que contiene un total de 55 cartas.
 
-    Acción: El sistema ejecuta el proceso de validación para cambiar el estado del mazo a "Completado" o guardar el resultado.
+Acción: El sistema ejecuta el proceso de validación para cambiar el estado del mazo a "Completado" o guardar el resultado.
 
-    Resultado esperado: El sistema no permite guardar el mazo en estado "Completado", notifica al usuario que no alcanza el tamaño mínimo de 60 cartas y lo mantiene en estado borrador hasta completar la cantidad requerida.         
+Resultado esperado: El sistema no permite guardar el mazo en estado "Completado", notifica al usuario que no alcanza el tamaño mínimo de 60 cartas y lo mantiene en estado borrador hasta completar la cantidad requerida.         
 
 -Prueba para RN-02 (Límite de copias):
 
@@ -131,19 +131,19 @@ Resultado esperado: El mazo generado no incluye "Tarmogoyf" en su lista bajo nin
 
 -Prueba para RN-04 (Límite de colores por carta):
 
-    Condición inicial: El sistema procesa una carta de la colección que cuenta con 6 colores asignados en su registro.
+Condición inicial: El sistema procesa una carta de la colección que cuenta con 6 colores asignados en su registro.
 
-    Acción: El sistema valida la información de color asociada a la carta antes de permitir su uso en el generador de mazos.
+Acción: El sistema valida la información de color asociada a la carta antes de permitir su uso en el generador de mazos.
 
-    Resultado esperado: El sistema marca la carta como no válida por exceder el máximo de 5 colores permitidos (o 0 para incoloras) y no la clasifica en ninguna categoría válida de color.
+Resultado esperado: El sistema marca la carta como no válida por exceder el máximo de 5 colores permitidos (o 0 para incoloras) y no la clasifica en ninguna categoría válida de color.
 
 -Prueba para RN-05 (Restricción de color para Tierras Básicas):
 
-    Condición inicial: Existe en el sistema una carta con el subtipo "Tierra" y el atributo esBasica en verdadero, pero tiene registrados 2 colores (o 0 colores).
+Condición inicial: Existe en el sistema una carta con el subtipo "Tierra" y el atributo esBasica en verdadero, pero tiene registrados 2 colores (o 0 colores).
 
-    Acción: El sistema valida la carta durante la asignación de tierras básicas al mazo.
+Acción: El sistema valida la carta durante la asignación de tierras básicas al mazo.
 
-    Resultado esperado: El sistema detecta la inconsistencia, rechaza la inclusión de dicha carta como tierra básica y exige que la carta tenga asociado exactamente 1 único color.
+Resultado esperado: El sistema detecta la inconsistencia, rechaza la inclusión de dicha carta como tierra básica y exige que la carta tenga asociado exactamente 1 único color.
 
 
 ### Requisitos funcionales (Solo listados y consultas)
