@@ -92,6 +92,14 @@ Usuarios del sistema:
 
   RI-04 Usuario: Identificador, nombre de usuario, correo electrónico, contraseña cifrada, fecha de registro.
 
+  RI-05 Formato (de juego): Identificador, nombre, tamaño de mazo, legalidad, lista de cartas prohibidas
+
+  RI-06 Sets de expansión: Identificador, lista de cartas, fecha de lanzamiento
+
+  RI-07 Carta de Monstruo: Fuerza y resistencia
+
+  RI-08 
+
   ### Reglas de negocio (RN):
 
   RN-01 Tamaño mínimo de mazo: Todo mazo generado o validado dentro del sistema para formatos tradicionales (como Standard o Commander) debe contener un total mínimo de 60 cartas. Esta regla actúa como un filtro de seguridad, el sistema no considerará válido ni guardará un mazo en estado "Completado" si el conteo total de sus cartas es inferior a 60
