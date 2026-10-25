@@ -27,16 +27,24 @@ A partir de este inventario, el sistema evalúa las cartas utilizables, calcula 
 
 ## 2.Glosario de términos
         
-Carta: Unidad básica del juego. Tiene atributos como coste de maná, color, tipo (criatura, instantáneo, conjuro, tierra) y reglas de texto.
+## 2.Glosario de términos
+        
+Carta: Unidad básica del juego. Posee atributos como coste de maná, color, tipo (criatura, instantáneo, conjuro, tierra) y opcionalmente un efecto y una descripción.
     
 ![Carta](fotoCarta.png)
 
 
 Colección: Es el conjunto de cartas de Magic que posee un usuario registrado en el sistema.
 
-Color (Maná): Es el sistema de recursos o "hablidades por categorías" del juego (Blanco, Azul, Negro, Rojo, Verde e Incoloro). Define la identidad de las cartas y los mazos.
+Color (Maná): Es el sistema de recursos o "hablidades por categorías" del juego, se define la categoría por colores (Blanco, Azul, Negro, Rojo, Verde e Incoloro). Define la identidad de las cartas y los mazos.
 
-Formato: Es el conjunto de reglas que define qué cartas son legales para jugar y cómo se construye el mazo (ya sea Standard o  Commander).
+Formato: Es el conjunto de reglas que define qué cartas se permite jugar y qué reglaje debe seguir el usuario a la hora de construir su mazo (ya sea Standard o  Commander).
+
+Formato Standard: Los mazos deben contener al menos 60 cartas. Se permiten hasta 4 copias de la misma carta de un listado de cartas permitidas a excepcion de tierras básicas que carecen de limitante. Solo pueden utilizarse cartas de las ultimas colecciones añadidas a magic.
+
+Formato Commander: Los mazos deben contener exactamente 100 cartas. Se permite una única copia de cada carta a excepcion de las cartas básicas, debe incluir obligatoriamente una Criatura Legendaria llamada comandante y todas las cartas deben usar maná de los colores asociados a los del comandante.
+
+Sets: Paquete temático de cartas que se lanza al mercado de forma periódica (varias veces al año). Cada set introduce un conjunto de nuevas cartas.
 
 Mazo (Deck):Es el conjunto de cartas seleccionado por un jugador para disputar una partida. Debe cumplir las restricciones del formato elegido.
 
@@ -46,12 +54,17 @@ Mazo (Deck):Es el conjunto de cartas seleccionado por un jugador para disputar u
 
 
 
-Criatura: Son los monstruos, soldados o bestias que invocas para luchar por ti, son cartas
-Conjuro: Es un  hechizo puntual o un habilidad de una carta de gran poder (ejemplo: lanzar un rayo )
+Criatura: Son los monstruos, soldados o bestias que invocas para luchar por ti, estas cartas cuentan con un coste de maná (de uno o más colores), un valor asociado a su fuerza y otro a su resistencia, y un efecto y descripción opcionalmente.
+
+Conjuro: Es un  hechizo puntual o una habilidad de una carta de gran poder, que puede ser utilizado tras cumplir una serie de requisitos y consumir la cantidad de mana especificada. (ejemplo: lanzar un rayo)
+
+Tierra: Permite generar maná de los colores especificado por la carta.
+
+Tierra básica: Asociada a un único color, permite generar mana de dicho color, a diferencia del resto de cartas, no existe restriccion de copias para las tierras básicas, pudiendo llevar todas las que el usuario quiera
+
+Cementerio:Es el lugar donde se envía un conjuro tras ser usado o las criaturas eliminadas en combate al jugar una partida
 
 
-
-Cementerio:Es el lugar donde se envía un conjuro tras ser usado o las cartas eliminadas en combate al jugar una partida
 
 ## 3.Visión general del sistema
         
