@@ -98,7 +98,7 @@ Usuarios del sistema:
 
   RI-07 Carta de Monstruo: Fuerza y resistencia
 
-  RI-08 
+  RI-08 Carta de Tierra: Comprobar si es básica y, de serlo, cumple la restricción de tener un solo color.
 
   ### Reglas de negocio (RN):
 
