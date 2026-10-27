@@ -242,8 +242,10 @@ RF-10: **Consutar historial de modificaciones y versiones del mazo**
        para evaluar la evolución histórica de mis listas y deshacer cambios si es necesario.
 
 
+<img width="1823" height="799" alt="diagramaUml" src="https://github.com/user-attachments/assets/637b4c6e-e9a3-4fe1-bb13-136c5c474478" />
 
    
         
 
-![Modelo](fotoModelo.png)
+
+
