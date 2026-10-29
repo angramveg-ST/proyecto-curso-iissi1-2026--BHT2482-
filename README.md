@@ -171,75 +171,75 @@ Resultado esperado: El sistema detecta la inconsistencia, rechaza la inclusión 
 
 ### Requisitos funcionales (Solo listados y consultas)
 
-  RF-01: **Consultar ficha completa de una carta**
+RF-01: **Consultar ficha completa de una carta**
          
-         Como usuario del sistema, 
-         quiero abrir la ficha completa de cualquier carta de la base de datos central, visualizando sus datos oficiales:
-         Nombre en español e inglés, coste de maná, tipo, efecto, descripción,         ilustracion, set y formatos legales,
-         para conocer con precisión las características y reglas oficiales de la carta.
+Como usuario del sistema, 
+quiero abrir la ficha completa de cualquier carta de la base de datos central, visualizando sus datos oficiales:
+Nombre en español e inglés, coste de maná, tipo, efecto, descripción,         ilustracion, set y formatos legales,
+para conocer con precisión las características y reglas oficiales de la carta.
   
-  RF-02: **Listar y filtrar la colección personal del usuario**
-  
-         Como coleccionista,
-         quiero consultar un listado paginado con las cartas de mi inventario personal, filtrable por color, tipo, rareza
-         o coste, y con el recuento exacto de copias,
-         para gestionar y conocer el estado real de mi inventario digital o físico.
-    
-  RF-03: **Listar mazos generados**
-         
-         Como usuario interesado en la creación de mazos, 
-         quiero visualizar un listado general con todos los mazos que he creado o guardado en el sistema, indicando su nombre,
-         formato y fecha de última modificación,
-         para acceder rápidamente a cualquier mazo previamente guardado.
-
-  RF-04: **Consultar composición detallada de un mazo**
-  
-         Como usuario interesado en la creación de mazos,
-         quiero seleccionar un mazo específico para poder revisar las cartas que contiene organizado por tipo de carta 
-         (criaturas, hechizos, tierras) y zonas (mazo principal o comandante), junto con el número de copias de cada carta,
-         para analizar la estructura interna y composición del mazo seleccionado.
-
-   RF-05: **Buscar cartas en la base de datos maestra**
+RF-02: **Listar y filtrar la colección personal del usuario**
           
-          Como usuario del sistema,
-          quiero realizar búsquedas avanzadas en el catálogo global aplicando filtros combinados por nombre, 
-          texto de reglas, coste de maná convertido, formato y set,
-          para localizar rápidamente cartas específicas dentro de la base de datos general de Magic.
+Como coleccionista,
+quiero consultar un listado paginado con las cartas de mi inventario personal, filtrable por color, tipo, rareza
+o coste, y con el recuento exacto de copias,
+para gestionar y conocer el estado real de mi inventario digital o físico.
+            
+RF-03: **Listar mazos generados**
+         
+Como usuario interesado en la creación de mazos, 
+quiero visualizar un listado general con todos los mazos que he creado o guardado en el sistema, indicando su nombre,
+formato y fecha de última modificación,
+para acceder rápidamente a cualquier mazo previamente guardado.
+
+ RF-04: **Consultar composición detallada de un mazo**
+  
+Como usuario interesado en la creación de mazos,
+quiero seleccionar un mazo específico para poder revisar las cartas que contiene organizado por tipo de carta 
+(criaturas, hechizos, tierras) y zonas (mazo principal o comandante), junto con el número de copias de cada carta,
+para analizar la estructura interna y composición del mazo seleccionado.
+
+RF-05: **Buscar cartas en la base de datos maestra**
+          
+Como usuario del sistema,
+quiero realizar búsquedas avanzadas en el catálogo global aplicando filtros combinados por nombre, 
+texto de reglas, coste de maná convertido, formato y set,
+para localizar rápidamente cartas específicas dentro de la base de datos general de Magic.
     
   RF-06: **Sugerir mazos viables según la colección (Motor de Sugerencias)**
          
-         Como jugador que busca nuevas opciones de juego,
-         quiero que el sistema analice mi inventario personal y lo compare con listas de mazos ya creados, 
-         mostrándome sugerencias ordenadads por lel porcentaje de cartas que ya poseo,
-         para identificar qué mazoz funcionales puedo armar inmediatamente o con adquisiciones mínimas.
+Como jugador que busca nuevas opciones de juego,
+quiero que el sistema analice mi inventario personal y lo compare con listas de mazos ya creados, 
+mostrándome sugerencias ordenadads por lel porcentaje de cartas que ya poseo,
+para identificar qué mazoz funcionales puedo armar inmediatamente o con adquisiciones mínimas.
          
   RF-07: **Consultar cartas faltantes y coste de adquisición**
          
-         Como jugador interesado en completar un mazo,
-         quiero generar una lista exacta de las cartas y cantidades que me faltan para terminar un mazo incompleto, 
-         junto con una estimación económica basada en precios actuales de mercado,
-         para planificar mis compras de forma eficiente.
+Como jugador interesado en completar un mazo,
+quiero generar una lista exacta de las cartas y cantidades que me faltan para terminar un mazo incompleto, 
+junto con una estimación económica basada en precios actuales de mercado,
+para planificar mis compras de forma eficiente.
          
   RF-08: **Consultar métricas y análisis estadístico del mazo**
          
-         Como usuario interesado en la creación de mazos,
-         quiero visualizar gráficos de análisis de un mazo, como la curva de maná, proporciones de colores frete a 
-         fuentes de maná y coste medio de las cartas del mazo,
-         para comprobar si la baraja está equilibrada y es competitiva.
+Como usuario interesado en la creación de mazos,
+quiero visualizar gráficos de análisis de un mazo, como la curva de maná, proporciones de colores frete a 
+fuentes de maná y coste medio de las cartas del mazo,
+para comprobar si la baraja está equilibrada y es competitiva.
 
 RF-09: **Garantizar la privacidad de los mazos de usuario**
         
-        Como propietario de un mazo,
-        quiero que mis listas de mazos creados sean estrictamente privadas y bloqueadas frente a otros usuarios
-        o visitantes no autorizados,
-        para proteger mis estrategis de juego y creaciones personales frente a terceros.
+Como propietario de un mazo,
+quiero que mis listas de mazos creados sean estrictamente privadas y bloqueadas frente a otros usuarios
+o visitantes no autorizados,
+para proteger mis estrategis de juego y creaciones personales frente a terceros.
 
 RF-10: **Consutar historial de modificaciones y versiones del mazo**
        
-       Como usuario interesado en la creación de mazos,
-       quiero que el sistema guarde un registro automático de cada cambio en mis barajas, permitiéndome consultar
-       una línea temporal y comparar dos versiones con las adiciones o bajas resaltadas,
-       para evaluar la evolución histórica de mis listas y deshacer cambios si es necesario.
+Como usuario interesado en la creación de mazos,
+quiero que el sistema guarde un registro automático de cada cambio en mis barajas, permitiéndome consultar
+una línea temporal y comparar dos versiones con las adiciones o bajas resaltadas,
+ para evaluar la evolución histórica de mis listas y deshacer cambios si es necesario.
 
 
 ![Diagrama UML](diagramaUml.png)
