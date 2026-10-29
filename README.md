@@ -64,7 +64,7 @@ Tierra básica: Asociada a un único color, permite generar mana de dicho color,
 
 Cementerio: Es el lugar donde se envía un conjuro tras ser usado o las criaturas eliminadas en combate al jugar una partida
 
-
+Legalidad: Fecha específica a partir de la cual cartas son legales en un formato; es decir, en un formato sólo se pueden jugar cartas que hayan sido lanzadas posteriormente a dicha fecha.
 
 ## 3.Visión general del sistema
         
