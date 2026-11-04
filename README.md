@@ -281,7 +281,9 @@ c1:Carta(identificador='trm01',nombre='Tarmogoyf',costemana=2,tipo='criatura',te
 col1:Coleccion(cantidadDisponible=0)
 m1:Mazo(id=223325,nombre='MazoVerde',fechacreacion=15/06/2026)
 
-![Diagra ep3]diagraep3.png)
+
+
+![Diagra ep3](diagraep3.png)
 
 ![Diagrama UML](diagramaUml.png)
 ### **Matriz de Trazabilidad del Proyecto**
