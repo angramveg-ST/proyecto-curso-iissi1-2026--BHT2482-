@@ -254,7 +254,7 @@ c1:Carta(identificador='bklot',nombre='Black Lotus' ,costemana=1999,tipo='artefa
 m1:Mazo(id=223323,nombre='Mimazo1' ,fechacreacion=15/06/2026)
 f1:Formato(id=221,nombre=' Commander',tamañoMazo=60,legalidad='esIlegal')
 
-![Diagrama ep1](diagraaep1.png)
+![Diagrama ep1](diagramaep1.png)
 
 **EP-02:**
 
