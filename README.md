@@ -254,6 +254,8 @@ c1:Carta(identificador='bklot',nombre='Black Lotus' ,costemana=1999,tipo='artefa
 m1:Mazo(id=223323,nombre='Mimazo1' ,fechacreacion=15/06/2026)
 f1:Formato(id=221,nombre=' Commander',tamañoMazo=60,legalidad='esIlegal')
 
+![Diagrama ep1](diagraaep1.png)
+
 **EP-02:**
 
 Objetivo: Comprobar que el sistema no permite guardar un mazo en estado "Completado" si no se alcanza el tamaño mínimo de 60 cartas requerido para formatos tradicionales como Standard.
@@ -264,6 +266,8 @@ Objetos involucrados:
 u1:Usuario(id=2,nombre='Pablo',correoelectronico='pablo@gmail.com',contraseñacifrada='y7ujhbgvfrty',fecharegistro=21/12/2025)
 m1:Mazo(id=553323,nombre='MimazoStandard',fechacreacion=15/07/2026)
 f1:Formato(id=101,nombre='Standard',tamañoMazo=55,legalidad='esIlegal')
+
+![Diagrama ep2](diagramaep2.png)
 
 **EP-03:**
 
@@ -277,6 +281,7 @@ c1:Carta(identificador='trm01',nombre='Tarmogoyf',costemana=2,tipo='criatura',te
 col1:Coleccion(cantidadDisponible=0)
 m1:Mazo(id=223325,nombre='MazoVerde',fechacreacion=15/06/2026)
 
+![Diagrama ep3]diagraep3.png)
 
 ![Diagrama UML](diagramaUml.png)
 ### **Matriz de Trazabilidad del Proyecto**
