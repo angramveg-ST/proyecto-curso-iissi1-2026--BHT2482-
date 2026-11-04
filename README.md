@@ -243,6 +243,7 @@ una línea temporal y comparar dos versiones con las adiciones o bajas resaltada
 ## 5.Escenarios de prueba
 
 **EP-01:**
+
 Objetivo: Comprobar que un user no puede añadir una carta ilegal o no permitida o exceder el numero máximo permitido a un mazo a la hora de añadir  cartas a su propio mazo en el sistema de gestión.
 
 Descripción textual: Un cliente Eric Rodriguez intenta añadir la carta "Black Lotus"(Carta ultra rara"), prohibida en la gran mayoría de formatos, el sistema notifica al sistema y valida que no es posible añadir dicha carta al mazo. El sistema manda un mensaje de error diciendo: 'Carta no valida para añadir al mazo, seleccione otra carta válida'
@@ -254,25 +255,28 @@ m1:Mazo(id=223323,nombre='Mimazo1' ,fechacreacion=15/06/2026)
 f1:Formato(id=221,nombre=' Commander',tamañoMazo=60,legalidad='esIlegal')
 
 **EP-02:**
+
 Objetivo: Comprobar que el sistema no permite guardar un mazo en estado "Completado" si no se alcanza el tamaño mínimo de 60 cartas requerido para formatos tradicionales como Standard.
 
 Descripción textual: El usuario intenta generar o guardar un mazo para el formato Standard que contiene un total de 55 cartas.El sistema ejecuta el proceso de validación, detecta que no se cumple el tamaño mínimo, impide guardar el mazo como "Completado", notifica al usuario del error y lo mantiene en estado borrador.
 
 Objetos involucrados:
-u1:Usuario(id=1,nombre='Iker Rodriguez',correoelectronico='ikerrodr6967@gmail.com',contraseñacifrada='ajduy27y3evgy7ujhbgvfrty',fecharegistro=21/10/2025)
-m1:Mazo(id=223323,nombre='MimazoStandard',fechacreacion=15/06/2026)
-f1:Formato(id=101,nombre='Standard',tamañoMazo=60,legalidad='esIlegal')
+u1:Usuario(id=2,nombre='Pablo',correoelectronico='pablo@gmail.com',contraseñacifrada='y7ujhbgvfrty',fecharegistro=21/12/2025)
+m1:Mazo(id=553323,nombre='MimazoStandard',fechacreacion=15/07/2026)
+f1:Formato(id=101,nombre='Standard',tamañoMazo=55,legalidad='esIlegal')
 
 **EP-03:**
+
 Objetivo: Comprobar que el generador de mazos respeta estrictamente la restricción de inventario, impidiendo añadir cartas que el usuario no posee.
 
 Descripción textual: El usuario posee 0 copias de la carta "Tarmogoyf" en su inventario. Al solicitar la generación de un mazo verde de formato Modern, el sistema revisa en tiempo real las existencias y el mazo generado no incluye "Tarmogoyf" bajo ninguna circunstancia, utilizando solo las cartas disponibles en la colección personal.   
 
 Objetos involucrados:
-u1:Usuario(id=1,nombre='Iker Rodriguez',correoelectronico='ikerrodr6967@gmail.com',contraseñacifrada='ajduy27y3evgy7ujhbgvfrty',fecharegistro=21/10/2025)
+u1:Usuario(id=1,nombre='Pepe',correoelectronico='pepe@gmail.com',contraseñacifrada='hbgvfrty',fecharegistro=21/10/2025)
 c1:Carta(identificador='trm01',nombre='Tarmogoyf',costemana=2,tipo='criatura',textoReglas='Poder y resistencia basados en tipos de carta',imagen='tarmogoyf.url',precio=30)
+col1:Coleccion(cantidadDisponible=0)
 m1:Mazo(id=223325,nombre='MazoVerde',fechacreacion=15/06/2026)
-f1:Formato(id=102,nombre='Modern',tamañoMazo=60,legalidad='esIlegal')
+
 
 ![Diagrama UML](diagramaUml.png)
 ### **Matriz de Trazabilidad del Proyecto**
