@@ -243,7 +243,20 @@ una línea temporal y comparar dos versiones con las adiciones o bajas resaltada
 
 
 ![Diagrama UML](diagramaUml.png)
+### **Matriz de Trazabilidad del Proyecto**
 
+| Requisito / Regla                     | Usuario | Carta | CartaMonstruo | CartaTierra | Coleccion | Mazo  | Formato | SetExpansion | poseeColeccion | perteneceASet | creaMazo | seRigePorFormato | incluyeCartaMazo | esUn (Herencia) | {RestriccionTierraBasica} | {RestriccionFormato} | {RestriccionPrivacidad} |
+| ------------------------------------- | ------- | ----- | ------------- | ----------- | --------- | ----- | ------- | ------------ | -------------- | ------------- | -------- | ---------------- | ---------------- | --------------- | ------------------------- | -------------------- | ----------------------- |
+| **RI-01 Carta**                       |         | **X** |               |             |           |       |         |              |                |               |          |                  |                  |                 |                           |                      |                         |
+| **RI-02 Colección**                   | **X**   | **X** |               |             | **X**     |       |         |              | **X**          |               |          |                  |                  |                 |                           |                      |                         |
+| **RI-03 Mazo**                        | **X**   | **X** |               |             |           | **X** | **X**   |              |                |               | **X**    | **X**            | **X**            |                 |                           |                      |                         |
+| **RI-04 Usuario**                     | **X**   |       |               |             |           |       |         |              |                |               |          |                  |                  |                 |                           |                      |                         |
+| **RI-05 Formato**                     |         |       |               |             |           | **X** | **X**   |              |                |               |          | **X**            |                  |                 |                           | **X**                |                         |
+| **RI-06 Sets de expansión**           |         | **X** |               |             |           |       |         | **X**        |                | **X**         |          |                  |                  |                 |                           |                      |                         |
+| **RI-07 Carta de Monstruo**           |         | **X** | **X**         |             |           |       |         |              |                |               |          |                  |                  | **X**           |                           |                      |                         |
+| **RI-08 Carta de Tierra**             |         | **X** |               | **X**       |           |       |         |              |                |               |          |                  |                  | **X**           | **X**                     |                      |                         |
+| **RN-01 Gestión Privada / Seguridad** | **X**   |       |               |             | **X**     | **X** |         |              | **X**          |               | **X**    |                  |                  |                 |                           |                      | **X**                   |
+| **RN-02 Inventario Personal**         | **X**   | **X** |               |             | **X**     |       |         |              |                |               |          |                  |                  |                 |                           |                      |                         |
    
         
 
