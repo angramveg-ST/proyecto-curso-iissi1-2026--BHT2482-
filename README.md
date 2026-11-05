@@ -1,4 +1,8 @@
 # DECKSMITHS
+
+    
+![logo](image.png)
+
 ## MIEMBROS DEL GRUPO:
 
     1.ÁLVARO AVILÉS VALENZUELA
