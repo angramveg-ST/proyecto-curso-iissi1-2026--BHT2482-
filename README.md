@@ -285,7 +285,7 @@ m1:Mazo(id=223325,nombre='MazoVerde',fechacreacion=15/06/2026)
 
 ![Diagra ep3](diagraep3.png)
 
-![Diagrama UML](diagramaUml.png)
+![Diagrama UML](Modelo.png)
 ### **Matriz de Trazabilidad del Proyecto**
 
 | Requisito / Regla                     | Usuario | Carta | CartaMonstruo | CartaTierra | Coleccion | Mazo  | Formato | SetExpansion | poseeColeccion | perteneceASet | creaMazo | seRigePorFormato | incluyeCartaMazo | esUn (Herencia) | {RestriccionTierraBasica} | {RestriccionFormato} | {RestriccionPrivacidad} |
